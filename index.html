@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/yeti/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.css">
+
+</head>
+<body>
+    
+    <div class="container mt-4">
+        <h1 class="display-4 text-center">
+            <i class="fas fa-book-open text-primary"></i>
+            My <span class="text-primary">Book</span>List
+        </h1>
+        <form action="" id="book-form">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="title">Author</label>
+                <input type="text" id="title" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="title">ISBN#</label>
+                <input type="text" id="title" class="form-control">
+            </div>
+            <input type="submit" class="btn btn-primary btn-block" value="Add book">
+        </form>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN#</th>
+                    <th>ACTION</th>
+                </tr>
+            </thead>
+            <tbody id="book-list">
+                
+            </tbody>
+        </table>
+
+
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
